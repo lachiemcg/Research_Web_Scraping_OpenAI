@@ -27,6 +27,7 @@ WEB_SCRAPING_OPENAI/
 1. **Initial Setup**
    - The user provides a list of websites in `input_websites.csv`.
    - The main script, `0_start_scrape_JSON.py`, orchestrates the entire process by running the scripts `2_OAIS_JSON.py` and `3_web_scraper_multithreaded.py` iteratively for each website.
+   - Ensure you have made folders as shown in project structure above
 
 2. **Web Scraping**
    - The script `2_OAIS_JSON.py` scrapes each website listed in `input_websites.csv` and saves the generated text file in the `scraped_websites/` folder.
